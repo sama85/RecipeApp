@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Recipe Image -->
+    <ImageView
+        android:id="@+id/imageViewRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <!-- Recipe Title -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:text="Recipe Title" />
+
+    <!-- Used Ingredients -->
+    <TextView
+        android:id="@+id/textViewUsedIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Used Ingredients:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewUsedIngredientsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredient 1, Ingredient 2, Ingredient 3"
+        android:layout_marginStart="16dp" />
+
+    <!-- Missed Ingredients -->
+    <TextView
+        android:id="@+id/textViewMissedIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Missed Ingredients:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMissedIngredientsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredient A, Ingredient B, Ingredient C"
+        android:layout_marginStart="16dp" />
+
+</LinearLayout>
